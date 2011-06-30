@@ -1,0 +1,239 @@
+
+html {
+	font-size: 62.5%;
+	height: 100%;
+}
+
+body {
+	background: #e6f1f6 url("../images/bg.png") repeat-x 0 0;
+	margin: 0; 
+	padding: 0;
+	font-size: 1.2em;
+	line-height: 1.5em;
+	font-family: Anivers, Verdana, sans-serif;
+	color: #363636;
+	min-height: 100%;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0; padding: 0;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+img {
+	border: none;
+}
+
+a {
+	text-decoration: none;
+	font-weight: normal;
+	color: #363636;
+}
+
+ul, ol {
+	margin: 0; 
+	padding: 0 0 0 20px;
+}
+
+form, fieldset {
+	margin: 0; 
+	padding: 0;
+	border: 0;
+}
+
+#wrapper {
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+/* HEADER */
+
+#header {
+	background: url("../images/header.png") repeat-x scroll 0 bottom;
+}
+
+#header .inner {
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+	min-height: 90px;
+	overflow: hidden;
+}
+
+#header .logo {
+	font-size: 3.6em;
+	padding: 14px 0 0 0;
+	float: left;
+	color: #ffffff;
+	line-height: 1.2em;
+	letter-spacing: -3px;
+	display: block;
+	font-weight: bold;
+}
+
+#header .slogan {
+	text-transform: uppercase;
+	padding: 10px 0 0 102px;
+}
+
+#nav {
+	position: absolute;
+	bottom: 10px;
+	right: 0;
+}
+
+#nav li {
+	list-style: none;
+	float: left;
+}
+
+#nav a {
+	background: #ffffff;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	float: left;
+	padding: 5px 10px;
+	margin: 0 0 0 5px;
+	width: 90px;
+	text-align: center;
+	font-weight: normal;
+	font-size: 1.3em;
+	color: #41688D;
+}
+
+#nav a:hover {
+	background: #000000;
+	color: #ffffff;
+}
+
+/* main */
+
+#main {
+	background: #ffffff;
+	padding: 20px;
+	width: 920px;
+	margin: 40px auto;
+	border-radius: 10px;
+}
+
+p {
+	font-size: 1.2em;	
+}
+
+p a {
+	text-decoration: underline;
+}
+
+#main li {
+	font-size: 1.2em;
+	line-height: 1.7em;
+}
+
+#main li a {
+	text-decoration: underline;
+}
+
+.button {
+	background: #0fbcee;
+	-moz-border-radius: 15px;
+	border: 3px solid #363636;
+	display: block;
+	width: 200px;
+	padding: 5px;
+	margin: 25px 0 0 0;
+	font-weight: bold;
+	color: #000000;
+	text-align: center;
+	font-size: 1.7em;
+}
+
+.buttons {
+	padding: 20px 0;
+}
+
+.title {
+    color: #444444;
+    font-family: Tahoma;
+    font-size: 2.4em;
+    font-weight: bold;
+    letter-spacing: -3px;
+    line-height: 1em;
+    padding: 10px 0;
+}
+
+/* form */
+
+.form {
+	width: 600px;
+}
+
+.form label {
+	display: block;
+	margin: 0 0 3px 0;
+	font-size: 1.1em;
+}
+
+.form .textbox {
+	background: #f8fafb;
+	padding: 8px 5px;
+	border: 1px solid #cccccc;
+	width: 235px;
+	-moz-border-radius: 5px;
+}
+
+.form textarea {
+	padding: 4px 5px;
+	border: 1px solid #cccccc;
+	width: 440px;
+	height: 125px;
+	-moz-border-radius: 5px;	
+}
+
+.form .row {
+	overflow: hidden;
+	margin: 0 0 15px 0;
+}
+
+.form .field {
+	float: left;
+	padding: 0 30px 0 0;	
+}
+
+legend {
+  	color: #444444;
+    font-family: Tahoma;
+    font-size: 2.4em;
+    font-weight: bold;
+    letter-spacing: -3px;
+	line-height: 1em;
+	padding: 10px 0;
+}
+
+.page-info {
+	margin: 20px 0;
+}
+
+.page-info .success {
+	color: #6fdf55;
+	font-size: 2em;
+	line-height: 1.2em;
+	font-weight: bold;
+	margin: 0 0 5px 0;
+}
+
+.num {
+	color: #68a2cb;
+	font-weight: bold;
+	font-size: 1.4em;	
+}
+
+.ducks {
+	background: url(../images/duck.png) repeat-x left bottom;
+	width: 100%;
+	height: 191px;
+	position: static;
+	bottom: 0;
+	display: block;
+}
